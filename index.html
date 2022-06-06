@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS E SCRIPT -->
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+
+    <div class='box'>
+        <div class='wave -one'></div>
+        <div class='wave -two'></div>
+        <div class='wave -three'></div>
+    </div>
+
+    <section class="container">
+        <h1>
+            Calculadora de IMC
+        </h1>
+
+        <h2>
+            Para calcular o IMC, preencha os campos abaixo.
+        </h2>
+
+        <div class="pacient-info">
+            <form id="pacient-form">
+                <div class="pacient-details">
+                    <h3>
+                        Idade
+                    </h3>
+                    <div class="d-flex">
+                        <input required type="number" name="idade" id="idade">
+                        <label for="idade">anos</label>
+                    </div>
+                </div>
+
+                <div class="pacient-details">
+                    <h3>
+                        Altura
+                    </h3>
+                    <div class="d-flex">
+                        <input required type="number" name="altura" id="altura" placeholder="Ex: 187">
+                        <label for="altura">centímetros</label>
+                    </div>
+                </div>
+
+                <div class="pacient-details">
+                    <h3>
+                        Peso
+                    </h3>
+                    <div class="d-flex">
+                        <input required type="number" name="peso" id="peso">
+                        <label for="peso">kg</label>
+                    </div>
+                </div>
+
+                <div class="pacient-details">
+                    <div class="d-flex">
+                        <button type="submit" class="btn-submit">Calcular</button>
+                        <button class="btn-clean">Limpar</button>
+                    </div>
+                </div>
+                <p class="resultado-imc">
+
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="m-auto">
+            <img src="/images/gordo.gif" alt="Gordinho" width="320" height="220" class="img-fluid">
+        </div>
+    </section>
+
+</body>
+
+</html>
