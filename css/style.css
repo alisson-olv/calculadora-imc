@@ -341,9 +341,6 @@ body .container .pacient-info form .pacient-details input[type=number]::-webkit-
 body .container .pacient-info form .pacient-details input[type=number] ::-webkit-outer-spin-button {
   appearance: none;
 }
-body .container .pacient-info form .pacient-details input[type=number]:focus {
-  outline: 2px solid #42F2F7;
-}
 body .container .pacient-info form .btn-submit {
   background-color: #92e9d5;
   border: none;
