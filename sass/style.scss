@@ -242,6 +242,10 @@ body {
                     ::-webkit-outer-spin-button {
                         appearance: none;
                     }
+
+                    &:focus {
+                        outline: none !important;
+                    }
                 }
             }
 
