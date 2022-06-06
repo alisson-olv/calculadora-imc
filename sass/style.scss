@@ -236,6 +236,7 @@ body {
                 input[type=number] {
                     padding: 5px 10px;
                     max-width: 120px;
+                    border-radius: 4px;
 
                     &::-webkit-inner-spin-button,
                     ::-webkit-outer-spin-button {

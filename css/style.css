@@ -335,6 +335,7 @@ body .container .pacient-info form .pacient-details {
 body .container .pacient-info form .pacient-details input[type=number] {
   padding: 5px 10px;
   max-width: 120px;
+  border-radius: 4px;
 }
 body .container .pacient-info form .pacient-details input[type=number]::-webkit-inner-spin-button,
 body .container .pacient-info form .pacient-details input[type=number] ::-webkit-outer-spin-button {
