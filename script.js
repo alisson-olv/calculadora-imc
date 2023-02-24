@@ -9,7 +9,7 @@ form.addEventListener('submit', function capturaDados(e) {
     let classificacao;
 
     // Resultado do cálculo de IMC
-    const imc = (pesoUsuario / (alturaUsuario * alturaUsuario))
+    const imc = (pesoUsuario / (alturaUsuario * alturaUsuario));
 
     // Retorna a classificação com base no cálculo do imc
     if (imc <= 18.4) {
